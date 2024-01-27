@@ -19,7 +19,6 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: gradle
-
     - name: Build with Gradle
       run: |
           echo "开始进行release构建"
